@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!--font aswome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--pain css-->
+    <link rel="stylesheet" href="B.css">
+</head>
+<body>
+    <!--HEADER-->
+      <header>
+          <nav>
+            <a href="#Home" >Home</a>
+            <a href="#About" >About</a>
+            <a href="#Education" >Education</a>
+            <a href="#Skills" >Skills</a>
+            <a href="#Certificates" >Certificates</a>
+            <a href="#PRO" >Projects</a>
+            <a href="#Contact" >Contact</a>
+            <a href="#Contact" >    </a>
+          </nav>
+      </header>
+    <!--HOME-->
+    <section class="home" id="Home">
+        <div class="home-con">
+            <h3>Hi</h3>
+            <h1>I'm Lakshman Namana</h1>
+            <h3>And I'm a Student</h3>
+            <p>creating web applications using a wide range of technologies. I specialize in both frontend and backend development, with a keen interest in building efficient and user-friendly applications.</p>
+            <div class="mynet">
+                <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/home.php"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+            <img  class="aa"  src="img\cv.jpg" width="30%" height="20%">
+    </section>
+    <!--ABOUT-->
+    <section class="about" id="About">
+        <h2>About Me</h2>
+        <p>Hello! I'm Lakshman, a passionate web developer with experience in full-stack development, specializing in technologies like FastAPI, Flask, React, and MongoDB. Recently, I completed a web development internship at AICTE and developed multiple projects, including a hospital OP application, a note-taking app, and a machine learning-based project.</p>
+        <p>With a strong foundation in HTML, CSS, Python, and database management, I'm continually working on enhancing my skills and delivering high-quality applications. Feel free to browse through my projects and connect with me on social media!</p>
+    </section> 
+    <!--EDUCATION-->
+    <section class="edu" id="Education">
+        <h1>Education</h1>
+        <div class="education-details">
+            <div class="education-item">
+                <h3>10th Grade</h3>
+                <p>Z.P.P High School</p>
+                <p>GPA: 9.8</p>
+            </div>
+            <div class="education-item">
+                <h3>Diploma</h3>
+                <p>KIET</p>
+                <p>Computer Science Engineering</p>
+                <p>Percentage: 92%</p>
+            </div>
+            <div class="education-item">
+               <h3>B.Tech</h3>
+               <p>KIET</p>
+               <p>Artificial Intelligence And Data Science</p>
+               <p>Percentage: 82%</p>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+<section class="skills" id="Skills">
+    <h1>Skills</h1>
+    <div class="skills-details">
+        <div class="skills-item">
+            <h3>Python Full Stack</h3>
+            <p>Experienced in building back-end and front-end applications using Python, Django, and Flask.</p>
+        </div>
+        <div class="skills-item">
+            <h3>Web Full Stack</h3>
+            <p>Proficient in front-end technologies (HTML, CSS, JavaScript, React) and back-end (Node.js, Express, MongoDB).</p>
+        </div>
+        <div class="skills-item">
+            <h3>Creativity</h3>
+            <p>Strong creative skills in designing user-friendly interfaces and solving complex problems innovatively.</p>
+        </div>
+    </div>
+</section>
+<section class="cert" id="Certificates">
+    <h1>CERTIFICATES</h1>
+    <div class="cert-details">
+        <div class="cert-item">
+            <h3>Python</h3>
+            <img src="img\Screenshot (34).png" width="65%" height="65%">
+        </div>
+        <div class="cert-item">
+            <h3>Web Full Stack</h3>
+            <img src="img\Screenshot (33).png" width="65%" height="65%">
+        </div>
+    </div>
+</section>
+<section class="project" id="PRO">
+    <h1>Projects</h1>
+    <div class="project-de">
+        <div class="project-item">
+            <h3>Percentage Calculator</h3>
+            <p>This project is a simple web-based tool designed to help users easily calculate percentages. The user-friendly interface ensures quick input of data, delivering accurate percentage results in real-time.</p>
+            <a href="#cgpa" >OPEN</a>
+        </div>
+        <div class="project-item"">
+            <h3>Hospital OP</h3>
+            <p>A hospital outpatient (OP) system that captures essential patient details and generates an OP sheet. This HTML and CSS-based project is efficient in managing patient records with a clean, printable interface.</p>
+            <a href="#op" >OPEN</a>
+        </div>
+        <div class="project-item"">
+            <h3>Student Application</h3>
+            <p>A form-based application that collects student details such as name, age, and course information and stores them in a MongoDB database. The project focuses on data collection and storage with a minimal and efficient design.</p>
+            <a href="#sa" >OPEN</a>
+        </div>
+    </div>
+</section>
+<!-- Contact Section -->
+<section class="contact" id="Contact">
+    <h1>Contact Me</h1>
+    <div class="contact-details">
+        <div class="contact-item">
+            <h3>Email Me</h3>
+            <form action="mailto:veerannanamana@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Email</button>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- Footer / Copyright Section -->
+<footer class="footer">
+    <p>&copy; 2024 lakshman. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

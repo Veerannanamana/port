@@ -1,0 +1,319 @@
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 2%;
+    text-align: center;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+    z-index: 9999;
+   
+}
+nav{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: right;
+    font-size: large;
+    
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+   padding: 2%;
+   padding-right: 1%;
+   
+}
+nav a:hover{
+    background-color: #555;
+}
+.home{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 2%;
+       padding-left: 10%;
+       padding-bottom: 10%;
+}
+.aa{
+    padding-top: 10%;
+}
+.mynet a i {
+    font-size: 30px; 
+    padding: 1%;
+}
+h1{
+    font-size: xxx-large;
+}
+h3{
+    font-size: xx-large;
+}
+p{
+    font-size: x-large;
+}
+
+.about {
+    padding: 100px;
+    background-color:lightcyan ;
+    padding-bottom: 10%;
+    
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: xx-large;
+    margin-bottom: 15px;
+}
+
+/* EDUCATION Section */
+.edu {
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+    
+}
+
+.edu h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.education-details {
+    display: flex;             
+    justify-content: space-between; 
+    flex-wrap: wrap;            
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;        
+}
+
+.education-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;          
+    box-sizing: border-box;      
+}
+
+.education-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.education-item p {
+    font-size: x-large;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .education-item {
+        width: 100%;             
+    }
+}
+/* Skills Section */
+.skills {
+    padding: 50px;
+    background-color: #eaf2f8;
+    text-align: center;
+    padding-top: 5%;
+    
+}
+
+.skills h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.skills-details {
+    display: flex;             
+    justify-content: space-between; 
+    flex-wrap: wrap;            
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;                 
+}
+
+.skills-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;                
+    box-sizing: border-box;    
+}
+
+.skills-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.skills-item p {
+    font-size: x-large;
+    color: #555;
+}
+
+/* Responsive Design for Skills Section */
+@media (max-width: 768px) {
+    .skills-item {
+        width: 100%;             
+    }
+}
+/*certificates*/
+.cert{
+    padding: 50px;;
+    background-color: #eaf2f8;
+    text-align:center ;
+    padding: 10%;
+
+}
+.cert h1{
+    margin-bottom: 30px;
+}
+.cert-details{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cert-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 45%; 
+    box-sizing: border-box;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .cert-item {
+        width: 100%;             
+    }
+}
+/* project Section */
+.project {
+    padding: 50px;
+    background-color:#f9f9f9;
+    text-align: center;
+    padding-top: 5%;
+    
+}
+
+.project h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.project-de{
+    display: flex;             
+    justify-content: space-between; 
+    flex-wrap: wrap;            
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;                 
+}
+
+.project-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;                
+    box-sizing: border-box;    
+}
+
+.project-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+.project-item a {
+    font-size: 1.8em;
+    text-decoration: none;
+}
+.project-item p {
+    font-size: x-large;
+    color: #555;
+}
+
+/* Responsive Design for Skills Section */
+@media (max-width: 768px) {
+    .project-item {
+        width: 100%;             
+    }
+}
+/* Contact Section */
+.contact {
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.contact h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.contact-details {
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.contact-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%; 
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.contact-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    font-size: large;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Responsive Design for Contact Section */
+@media (max-width: 768px) {
+    .contact-item {
+        width: 100%; /* Stack items vertically on smaller screens */
+    }
+}
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.footer p {
+    margin: 0;
+    font-size: medium;
+}
